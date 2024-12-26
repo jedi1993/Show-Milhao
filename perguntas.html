@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+</head>
+<style>
+    body{
+        background-color:gold;
+    }
+    .intro{
+        font-size: 40px;
+        margin:0;
+        color:black;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+}
+    ul{
+        width: 70%;
+        margin-top: 5px;
+    }
+    li{
+        margin:10px;
+        margin-left: 70px;
+        border-radius: 30px;
+    }
+    .opcao1{
+        display: flex;
+        justify-content: center;
+        background-color:orangered;
+        color:white;
+        width:80% ;
+    }
+    .opcao2{
+        display: flex;
+        justify-content: center;
+        color:white;
+        background-color: black;
+        width: 80% ;
+    }
+    .opcao3{
+        display: flex;
+        justify-content: center;
+        background-color: blue;
+        color:white;
+        width: 80% ;
+    }
+    .opcao4{
+        display: flex;
+        justify-content: center;
+        background-color:lightseagreen;
+        color:white;
+        width: 80% ;
+    }
+    .botao{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .cancelar{
+        margin-left: 10px;
+        background-color: red;
+        height: 30px;
+        font-weight: bolder;
+        width: 150px;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+    }
+    .responder{
+        margin-left: 10px;
+        background-color: green;
+        height: 30px;
+        font-weight: bolder;
+        width: 150px;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+    }
+    .pergunta{
+        display: flex;
+        justify-content: center;
+        background-color: coral;
+        border-radius: 50px;
+        width: 70%;
+
+    }
+    .consequencia{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        
+    }
+    span{
+        margin-left: 30px;
+        margin-bottom: 10px;
+        width: 15%;
+    }
+    .errar{
+        display: flex;
+        justify-content: center;
+        background-color: red;
+        color:white;
+        border-radius: 30px;
+    }
+    .parar{
+        display: flex;
+        justify-content: center;
+        background-color:mediumpurple;
+        color:white;
+        border-radius: 30px;
+    }
+    .acertar{
+        display: flex;
+        justify-content: center;
+        background-color: green;
+        color:white;
+        border-radius: 30px;
+    }
+</style>
+<body>  
+        <div class="intro">Bora começar?!</div>
+        <div class="intro">
+            <p class="pergunta">Pergunta: Em que ano foi descoberto o Brasil?</p>
+        </div>
+        <div class="intro">
+        <ul >
+             <li class="opcao1">Opção A: 1500</li>   
+             <li class="opcao2">Opção B: 1700</li>   
+             <li class="opcao3">Opção C: 1900</li>   
+             <li class="opcao4">Opção D: 1400</li>   
+    
+            </ul>
+        </div>
+        <div class="consequencia">
+            <span class="errar">Errar: 1000</span>
+            <span class="parar">Parar: 2000</span>
+            <span class="acertar">Acertar: 3000</span>
+        </div>
+        <div class="botao">
+           <button class="responder">Responder</button> 
+           <button class="cancelar">Cancelar</button>
+
+        </div>
+  
+</body>
+</html>
